@@ -11,3 +11,4 @@
 # # edit config files before build
 # tmp=$(mktemp)
 # jq ".ephemeral.GRAPHQL_ENDPOINT = $GRAPHQL_ENDPOINT" frontend/src/config/config.json > "$tmp" && mv "$tmp" frontend/src/config/config.json
+eb deploy reactnd-contacts-server-dev
